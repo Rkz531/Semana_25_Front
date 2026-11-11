@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>EcoStart - Soluções Sustentáveis</title>
+  <style>
+    body { font-family: Arial; margin: 0; background: #f4f7f4; color: #193b29; }
+    header { background: #244d35; color: white; padding: 30px; }
+    nav a { color: white; margin-right: 20px; }
+    main { max-width: 1000px; margin: 30px auto; padding: 20px; }
+    .cartao { padding: 24px; margin: 20px 0; background: white; border-radius: 10px; }
+    footer { text-align: center; padding: 20px; }
+  </style>
+</head>
+<body>
+<header><h1>EcoStart</h1><nav><a href="#sobre">Sobre</a><a href="#servicos">Serviços</a><a href="#contato">Contato</a></nav></header>
+<main>
+  <div class="cartao" id="sobre"><h2>Tecnologia sustentável</h2><p>Desenvolvemos soluções digitais para negócios que querem reduzir o impacto ambiental.</p><img src="imagens/equipe.svg" width="900"></div>
+  <div class="cartao" id="servicos"><h2>Nossos serviços</h2><p>Consultoria, automação e desenvolvimento web.</p><img src="imagens/solucoes.svg" width="900"></div>
+  <div class="cartao" id="contato"><h2>Fale conosco</h2><a href="mailto:contato@example.com">Envie um e-mail</a></div>
+</main>
+<footer>© 2026 EcoStart</footer>
+<script>var elementos = document.querySelectorAll('.cartao'); for (var i = 0; i < elementos.length; i++) { elementos[i].setAttribute('data-secao', String(i + 1)); }</script>
+</body>
+</html>
